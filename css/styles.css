@@ -1,0 +1,107 @@
+.logo {
+    height: 7em;
+    
+}
+
+header {
+    display:flex;
+    align-items: center;
+    padding: 1.5em
+}
+
+
+header nav {
+    flex: .25;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 120%;
+    font-family: sans-serif;
+    
+}
+header nav ul {
+    list-style-type: none;
+    justify-content:flex-end;
+     
+}
+
+header nav li {
+    padding: 2em
+        
+}
+
+body {
+    background-color: bisque;
+
+}
+
+h1, h2, p {
+    padding-left: 3em;
+    
+}
+
+
+@media screen and (max-width: 30rem) {
+    header, main {
+        flex-direction: column;
+    }
+    
+}
+
+.font1 {
+    font-family: cursive;
+    
+}
+
+#font1 {
+    font-family: fantasy
+        
+}
+
+div ul {
+    font-size: 150%
+    
+}
+
+.header {
+    font-size: 200%
+        
+}
+
+div img {
+    padding-left: 3em;
+    height: 240px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: darkturquoise;
+    
+}
+
+main {
+    display:flex;
+    
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 250%;
+}
