@@ -48,7 +48,9 @@ h1, h2, p {
     header, main {
         flex-direction: column;
     }
-    
+    form  {
+        flex-direction: column;
+    }
 }
 
 .font1 {
@@ -73,6 +75,7 @@ div ul {
 
 div img {
     padding-left: 3em;
+    padding-right: 3em;
     height: 240px;
     
 }
@@ -94,6 +97,7 @@ a:hover {
 
 main {
     display:flex;
+    align-items: center
     
 }
 
@@ -104,4 +108,16 @@ main div {
 
 h1 {
     font-size: 250%;
+}
+header a {
+    padding-right: 2em;
+}
+
+h3 {
+    padding-left: 2.5em;
+    font-family:fantasy;
+}
+
+label {
+    font-family: fantasy
 }
