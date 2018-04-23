@@ -121,3 +121,8 @@ h3 {
 label {
     font-family: fantasy
 }
+main form div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+}
