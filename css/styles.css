@@ -6,20 +6,8 @@
 header {
     display:flex;
     align-items: center;
-    padding: 1.5em
+    padding: 1.5em;
 }
-
-footer nav ul {
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    list-style-type: none;
-}
-
-footer nav li {
-    padding: 2em   
-}
-
 
 header nav {
     flex: .25;
@@ -34,6 +22,7 @@ header nav ul {
 header nav ul {
     list-style-type: none;
     justify-content:flex-end; 
+    
 }
 
 header nav li {
@@ -41,7 +30,10 @@ header nav li {
 }
 
 body {
-    background-color: bisque;
+    background-image: url(../Images/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .goback {
@@ -52,7 +44,7 @@ h1, h2, p {
 }
 
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 40rem) {
     header, main {
         flex-direction: column;
     }
@@ -95,11 +87,11 @@ a:link {
 }
 
 a:visited {
-    color: black;
+    color: purple;
 }
 
 a:hover {
-    color: darkturquoise;
+    color: skyblue;
     
 }
 
